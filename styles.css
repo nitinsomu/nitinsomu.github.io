@@ -1,0 +1,53 @@
+body{
+background-color: #DCDCDC;
+}
+
+.main-container{
+display: flex;
+justify-content: space-between;
+background-color: #27374D;
+}
+
+.item{
+max-width: 450px;
+}
+
+.item{
+color: #9DB2BF;
+}
+.intro{
+font-size: 50px;
+}
+
+.machinelearning{
+background-image: url("Images/3.jfif");
+background-size: 500px;
+height:150px;
+}
+
+.whitecolor{
+color: white;
+}
+
+.blockchain{
+background-image: url("Images/4.jpg");
+background-size: 300px;
+height:150px;
+}
+
+.webdev{
+background-image: url("Images/5.jpg");
+background-size: 500px;
+height:150px;
+}
+
+.Nitin{
+    height:400px;
+    
+}
+@media (max-width:700px)
+{
+    .main-container{
+        flex-direction: column;
+    }
+}
